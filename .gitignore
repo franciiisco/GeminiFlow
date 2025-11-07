@@ -1,0 +1,26 @@
+# Dependencias de Node (si decides usar herramientas de build)
+node_modules/
+package-lock.json
+
+# Archivos de Firefox
+*.xpi
+web-ext-artifacts/
+
+# Archivos de desarrollo
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Archivos temporales
+*.log
+*.tmp
+*~
+
+# Archivos de prueba
+test-results/
+coverage/
+
+# Builds
+dist/
+build/
